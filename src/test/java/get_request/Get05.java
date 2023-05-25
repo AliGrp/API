@@ -1,7 +1,6 @@
 package get_request;
 
 import base_urls.HerOkuAppBaseUrl;
-import base_urls.JsonPlaceHolderBaseUrl;
 import io.restassured.response.Response;
 import org.junit.Assert;
 import org.junit.Test;
@@ -10,7 +9,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.greaterThan;
 import static org.hamcrest.Matchers.hasSize;
 
-public class get05 extends HerOkuAppBaseUrl {
+public class Get05 extends HerOkuAppBaseUrl {
      /*
     Given
         https://restful-booker.herokuapp.com/booking
